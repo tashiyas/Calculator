@@ -1,0 +1,70 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+#calculator {
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#display {
+    background: #222;
+    color: #fff;
+    font-size: 2em;
+    padding: 10px;
+    text-align: right;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.button {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    font-size: 1.5em;
+    background-color: #666;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button.scientific {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    font-size: 1.5em;
+    background-color: #666;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button.operator {
+    background-color: #f9a825;
+}
+
+.button1{
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    font-size: 1.5em;
+    background-color: #333;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:active {
+    background-color: #888;
+}

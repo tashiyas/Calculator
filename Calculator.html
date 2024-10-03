@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    
+    
+    <link rel="stylesheet" href="Calculator.css">
+</head>
+<body>
+    <div id="calculator">
+        <div id="display">0</div>
+        <div>
+            <button class="button">7</button>
+            <button class="button">8</button>
+            <button class="button">9</button>
+            <button class="button operator">/</button>
+        </div>
+        <div>
+            <button class="button">4</button>
+            <button class="button">5</button>
+            <button class="button">6</button>
+            <button class="button operator">*</button>
+        </div>
+        <div>
+            <button class="button">1</button>
+            <button class="button">2</button>
+            <button class="button">3</button>
+            <button class="button operator">-</button>
+        </div>
+        <div>
+            <button class="button">0</button>
+            <button class="button">.</button>
+            <button class="button scientific">e</button>
+            
+            <button class="button operator">=</button>
+        </div>
+        <div>
+            <button class="button">(</button>
+            <button class="button">)</button>
+            <button class="button scientific">log</button>
+            <button class="button operator">+</button>
+        </div>
+        <div>
+            <button class="button scientific">sin</button>
+            <button class="button scientific">cos</button>
+            <button class="button scientific">tan</button>
+            <button class="button operator">AC</button>
+        </div>
+        <div>
+            <button class="button scientific">ln</button>
+            <button class="button scientific">π</button>
+            <button class="button scientific">%</button>
+            <button class="button operator" onclick="deleter()" id = "delete">DEL</button>
+        </div>
+
+    </div>
+    <script src="Calculator.js"></script>
+</body>
+</html>
